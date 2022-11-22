@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE e[
+<!ELEMENT e (coresdata+)>
+<!ELEMENT coresdata (cid,ctittle,pcode)> 
+<!ELEMENT cid (#PCDATA)>
+<!ELEMENT ctittle (#PCDATA)>
+<!ELEMENT pcode (#PCDATA)>
+]>
+<e>
+<coresdata>
+<cid>IT010</cid>
+<ctittle>Inf.and Org.</ctittle>
+<pcode>ITEC</pcode>
+</coresdata>
+
+<coresdata>
+<cid>CS441</cid>
+<ctittle>DBMS</ctittle>
+<pcode>COCS</pcode>
+</coresdata>
+
+<coresdata>
+<cid>IT011</cid>
+<ctittle>Int. to IT.</ctittle>
+<pcode>ITEC</pcode>
+</coresdata>
+
+<coresdata>
+<cid>CS3421</cid>
+<ctittle>Int. to DBMS.</ctittle>
+<pcode>COSC</pcode>
+</coresdata>
+
+
+
+
+</e>
